@@ -1,11 +1,11 @@
-# 🏗️ FloydCloud On-Prem Lab Environment
+# FloydCloud On-Prem Lab Environment
 
 This project simulates a foundational on-premises enterprise environment using Windows Server and Active Directory. Built as part of my Server & Cloud Administration training, 
 it serves as a hands-on lab for exploring identity management, group policy, automation, and infrastructure design.
 
 ---
 
-## 🔧 Lab Overview
+## Lab Overview
 
 - **Domain Name**: `floydcloud.local`
 - **Virtual Machines**:
@@ -15,11 +15,11 @@ it serves as a hands-on lab for exploring identity management, group policy, aut
 
 ---
 
-## 🗂️ Active Directory Structure
+## Active Directory Structure
 
 ---
 
-## 🔐 Security Groups
+## Security Groups
 
 The following security groups are used to manage access and delegation:
 
@@ -33,7 +33,7 @@ These are organized under `OU=Security,OU=Groups,OU=HQ,DC=floydcloud,DC=local`.
 
 ---
 
-## 📜 Automation Scripts
+## Automation Scripts
 
 PowerShell scripts are used to:
 - Create and move AD objects (users, groups)
@@ -45,7 +45,7 @@ PowerShell scripts are used to:
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 - Practice AD DS administration and OU design
 - Simulate real-world GPO deployment and delegation
@@ -54,7 +54,7 @@ PowerShell scripts are used to:
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 - Add File Server role and shared folders
 - Configure GPOs for password policy, desktop settings, and drive mapping
@@ -63,4 +63,4 @@ PowerShell scripts are used to:
 
 ---
 
-## 📁 Repo Structure
+## Repo Structure
