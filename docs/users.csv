@@ -1,0 +1,7 @@
+﻿Name,GivenName,Surname,SamAccountName,OU,Password,Department,Title,Groups
+Ava Nguyen,Ava,Nguyen,anguyen,"OU=HQ,OU=Users,DC=floydcloud,DC=local",P@ssw0rd!234,Sales,Account Executive,Sales-Staff;All-Employees
+Jordan Perez,Jordan,Perez,jperez,"OU=HQ,OU=Admin,DC=floydcloud,DC=local",P@ssw0rd!234,IT,Systems Analyst,IT-Staff;All-Employees
+Alex Cross,Alex,Cross,across,"OU=HQ,OU=Admin,DC=floydcloud,DC=local",P@ssw0rd!235,IT,Helpdesk Technician,GG-Helpdesk-PasswordReset
+Sam Iam,Sam,Iam,siam,"OU=HQ,OU=Admin,DC=floydcloud,DC=local",P@ssw0rd!236,IT,Server Administrator,GG-Server-Admins
+Taylor Swift,Taylor,Swift,tswift,"OU=HQ,OU=Admin,DC=floydcloud,DC=local",P@ssw0rd!237,Sales,Market Executive,GG-App-Reports-Readers
+Dean Winchester,Dean,Winchester,dwinchester,"OU=HQ,OU=Admin,DC=floydcloud,DC=local",P@ssw0rd!238,HR,Recruiter,
