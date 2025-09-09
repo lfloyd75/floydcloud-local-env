@@ -15,7 +15,7 @@ it serves as a hands-on lab for exploring identity management, group policy, aut
 
 ---
 
-## 🗂Active Directory Structure
+## Active Directory Structure
 
 ---
 
