@@ -10,8 +10,8 @@ it serves as a hands-on lab for exploring identity management, group policy, aut
 - **Domain Name**: `floydcloud.local`
 - **Virtual Machines**:
   - `DC01` – Domain Controller (AD DS, DNS, Server Manager)
-  - `SRV01` – Member Server (File Services, future roles)
-  - `CLIENT01` – Domain-joined workstation
+  - `SRV1` – Member Server (File Services, future roles)
+  - `CL1` – Domain-joined workstation
 
 ---
 
@@ -50,7 +50,7 @@ PowerShell scripts are used to:
 - Practice AD DS administration and OU design
 - Simulate real-world GPO deployment and delegation
 - Explore automation with PowerShell
-- Build a portfolio-ready infrastructure for cloud governance scenarios
+
 
 ---
 
