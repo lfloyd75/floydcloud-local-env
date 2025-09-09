@@ -24,8 +24,8 @@ foreach ($entry in $assignments) {
         $group = Get-ADGroup -Identity $entry.Group
 
         Add-ADGroupMember -Identity $group -Members $user
-        Write-Host "✅ Added $($entry.User) to $($entry.Group)"
+        Write-Host "Added $($entry.User) to $($entry.Group)"
     } catch {
-        Write-Warning "⚠️ Failed to add $($entry.User) to $($entry.Group). Check if both exist."
+        Write-Warning "Failed to add $($entry.User) to $($entry.Group). Check if both exist."
     }
 }

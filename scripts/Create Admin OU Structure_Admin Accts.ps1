@@ -19,9 +19,9 @@ foreach ($ou in $ouList) {
     $ouPath = "OU=$ou,$baseDN"
     if (-not (Get-ADOrganizationalUnit -Filter "Name -eq '$ou'" -SearchBase $baseDN -ErrorAction SilentlyContinue)) {
         New-ADOrganizationalUnit -Name $ou -Path $baseDN
-        Write-Host "✅ Created OU: $ouPath"
+        Write-Host "Created OU: $ouPath"
     } else {
-        Write-Host "ℹ️ OU already exists: $ouPath"
+        Write-Host "OU already exists: $ouPath"
     }
 }
 
@@ -46,8 +46,8 @@ foreach ($acct in $adminAccounts) {
                    -AccountPassword $password `
                    -Enabled $true `
                    -Description $acct.Desc
-        Write-Host "✅ Created account: $($acct.Name) in $userPath"
+        Write-Host "Created account: $($acct.Name) in $userPath"
     } else {
-        Write-Host "ℹ️ Account already exists: $($acct.Name)"
+        Write-Host "Account already exists: $($acct.Name)"
     }
 }
